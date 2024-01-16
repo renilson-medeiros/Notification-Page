@@ -80,7 +80,7 @@ main {
     .header_notification button {
         border: none;
         cursor: pointer;
-        color: var(--dark-grayish-blue);
+        /* color: var(--dark-grayish-blue); */
         background-color: transparent;
     }
 
