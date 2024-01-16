@@ -35,14 +35,14 @@ h1 {
     letter-spacing: 1px;
 }
 
-h3 {
+h2 {
     transition: .2s;
     font-size: 14px; 
     padding-right: 4px;
     color: var(--very-dark-blue);
 }
 
-    h3:hover {
+    h2:hover {
         cursor: pointer;
         color: var(--blue);
     }
