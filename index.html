@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/e28e4d0b6f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Notifications Page</title>
+</head>
+<body>
+
+    <main class="notifications__content">
+        <div class="header_notification">
+            <h1>Notifications <span class="count"></span></h1>
+            <button id="markAllAsRead" onclick="markAllAsRead()">Mark all as read</button>
+        </div>
+
+        <div class="body_notification">
+
+            <div class="notification new_notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-mark-webber.webp" alt="">
+                </div>
+
+                <div class="notification_content">
+                    <h3>Mark Webber</h3> 
+                    <span>reacted to your recent post <a href="#">My first tournament today!</a></span>
+                    <span class="timeago">1m ago</span> 
+                </div>
+            </div>
+
+            <div class="notification new_notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-angela-gray.webp" alt="">
+                </div>
+                <div class="notification_content">
+                    <h3>Angela Gray</h3> 
+                    <span>followed you</a></span> 
+                    <span class="timeago">5m ago</span> 
+                </div>
+            </div>
+
+            <div class="notification new_notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-jacob-thompson.webp" alt="">
+                </div>
+                <div class="notification_content">
+                    <h3>Jacob Thompson</h3> 
+                    <span>has joined your group <a href="#">Chess Club</a></span> 
+                    <span class="timeago">1 day ago</span>
+                </div>
+            </div>
+
+            <div class="notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-rizky-hasanuddin.webp" alt="">
+                </div>
+                <div class="notification_content">
+                    <h3>Rizky Hasanuddin</h3> 
+                    <span>sent you a private message</span> 
+                    <span class="timeago">5 days ago</span>
+                    <div class="message">
+                        <p>
+                            Hello, thanks for settings up the Chess Club. I've been a member for a
+                            few weeks now and I'm already having lots of fun and improving my
+                            game.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-kimberly-smith.webp" alt="">
+                </div>
+                <div class="notification_content">
+                    <h3>Kimberly Smith</h3>
+                    <span>commented on your picture</span> 
+                    <span class="timeago">1 week ago</span>
+                </div>
+                <div class="preview__picture">
+                    <img src="assets/imgs/image-chess.webp" alt="" />
+                </div>
+            </div>
+
+            <div class="notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-nathan-peterson.webp" alt="">
+                </div>
+                <div class="notification_content">
+                    <h3>Natan Peterson</h3> 
+                    <span>reacted to your recent post</span>
+                    <a href="#">5 end-game strategies toincrease your winn rate</a>
+                    <span class="timeago">2 weeks ago</span>
+                </div>
+            </div>
+
+            <div class="notification">
+                <div class="notification_image">
+                    <img src="assets/imgs/avatar-anna-kim.webp" alt="">
+                </div>
+                <div class="notification_content">
+                    <h3>Anna Kim</h3> 
+                    <span>left the group <a href="#">Chess Club</a></span> 
+                    <span class="timeago">2 weeks ago</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="assets/style.js"></script>
+    
+</body>
+</html>
